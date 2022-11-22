@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', 'Roboto',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
+  /* .container {
+    display: flex;
+    color: rgb(29, 27, 26);
+    justify-content: center;
+    margin: 100px 400px;
+    padding: 40px;
+    background-color: rgb(52, 100, 155);
+    border: 2px solid rgb(0, 102, 128);
+    border-radius: 4px;
+  } */
+  
+  button {
+    color: #40196D;
+    background-color: #EFF1FF;
+    font-family: sans-serif;
+    text-align:center;
+    padding: 5px 15px;
+    transition: transform .8s;
+  }
+  
+  button:hover {
+    transform: scale(1.1); 
+  }
+  
+  .LinkOntopForm {
+    background-color: #EFF1FF;
+    margin-bottom: 12.5px;
+    padding: 10px 20px;
+    color:#40196D;
+    margin-left: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 890px;
+  }
+  
+  .theLink {
+    color: #48D38A;
+  }
+  
+  .openAccount {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  
+  p {
+    color: #979797;
+  }
+  
+  
+  .wholeTable{
+    background-color: #FFFFFF;
+    border: black solid 2px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 890px;
+    padding: 30px 20px;
+  }
+  
+  
+  input {
+    border: none;
+    outline: none;
+    background-color: rgb(209, 209, 230);
+    padding: 9px 15px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  
+  .paragraphpasswordreset {
+    font-size: 12px;
+  }
+  .passwordReset {
+    color: #40196D;
+  }
