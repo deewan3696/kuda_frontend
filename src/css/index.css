@@ -1,14 +1,13 @@
-body {
-    margin: 0;
-    font-family:'Segoe UI', 'Roboto',sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  body {
+      background-image: url(../images/Kuda-background.svg);
+      background-repeat: no-repeat;
+      background-position: 940px;
   }
-  
-  code {
+   
+  /* code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
-  }
+  }  */
   
   
   /* .container {
@@ -22,7 +21,7 @@ body {
     border-radius: 4px;
   } */
   
-  button {
+   button {
     color: #40196D;
     background-color: #EFF1FF;
     font-family: sans-serif;
@@ -35,7 +34,7 @@ body {
     transform: scale(1.1); 
   }
   
-  .LinkOntopForm {
+   .Checkurl {
     background-color: #EFF1FF;
     margin-bottom: 12.5px;
     padding: 10px 20px;
@@ -46,21 +45,21 @@ body {
     margin-right: 890px;
   }
   
-  .theLink {
+  .anchorLink {
     color: #48D38A;
   }
   
   .openAccount {
-    padding: 10px 20px;
+    padding: 12px 18px;
     font-size: 13px;
   }
   
-  p {
+  #para {
     color: #979797;
   }
   
   
-  .wholeTable{
+  .kudaCont{
     background-color: #FFFFFF;
     border: black solid 2px;
     border-radius: 6px;
@@ -71,7 +70,7 @@ body {
   }
   
   
-  input {
+  #kudaInput1 {
     border: none;
     outline: none;
     background-color: rgb(209, 209, 230);
@@ -81,9 +80,29 @@ body {
   }
   
   
-  .paragraphpasswordreset {
-    font-size: 12px;
+  .resetPw {
+    font-size: 14px;
   }
-  .passwordReset {
+  .pwordReset {
     color: #40196D;
+  } 
+
+  .cont1{
+    display: flex;
+    
+  }
+
+  .kuda-btn {
+    width: 152px;
+    height: 48px;
+    background-color:#40196D;
+    color: #FFFFFF;
+    border-radius: 12px;
+  }
+
+  .p-text{
+    /* width: 315px; */
+    height: 35.17px;
+    color: #979797;
+    margin: 21px 0px 0px;
   }
