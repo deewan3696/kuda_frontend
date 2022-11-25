@@ -29,8 +29,15 @@ function Signup() {
                     <form>
                         <label htmlFor='email Address'>Email Address</label><br/>
                         <input id="kudaInput1" type="text" placeholder="example@gmail.com"/><br/><br/>
-                        <label htmlFor='Passowrd'>Passowrd</label><br/>
-                        <input id="kudaInput1" type="password" placeholder="------------" /><img src={Unhidepw } alt="Bootstrap" width="20" height="20"/><br/><br/>
+                        <label htmlFor='Passowrd'>Passoword</label><br/>
+                        <input id="kudaInput1" type="password" placeholder="------------" />
+                        <img 
+                        src={Unhidepw} 
+                        alt="Bootstrap" 
+                        width="20" 
+                        height="20"
+                        />
+                        <br/><br/>
                         <p className='resetPw'  id="para">Forgot Password?<a className='pwordReset' href='https://app.kuda.com/reset'>Reset it</a></p>
                     </form>
                   <button className="kuda-btn">Sign In</button>
