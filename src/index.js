@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
 //import Register from './componenets/Register';
-//import Signup from './componenets/Signup';
-import Home from './componenets/Home';
+import Signup from './componenets/Signup';
+// import Home from './componenets/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 //<Register />
-  //<Signup/>
-  <Home />
+  <Signup/>
+  //<Home />
 );
 
 // If you want to start measuring performance in your app, pass a function

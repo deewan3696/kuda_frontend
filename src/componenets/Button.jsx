@@ -1,14 +1,16 @@
-function Btn ({btnStyle,btnType,btnClass,btnValue}) {
+function Button ({btnStyle,btnType,btnClass,btnValue}) {
 
     return (
         <button  
-        style={btnStyle}
-        type={btnType}
-        className={btnClass}
+            style={btnStyle}
+            type={btnType}
+            className={btnClass}
+        > 
         
-        > {btnValue}
+        {btnValue}
+        
         </button>
     )
 }
 
-export default Btn
+export default Button

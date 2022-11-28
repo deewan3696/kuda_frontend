@@ -1,4 +1,4 @@
-function Label (forValue,labelValue) {
+function Label ({forValue,labelValue}) {
 
     return (
         <label htmlFor= {forValue}> {labelValue} </label>
